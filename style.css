@@ -1,0 +1,131 @@
+body{
+    background-color:hsl(216, 12%, 8%) ;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family:  "Overpass", sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    color: white;
+    background-color:hsl(213, 19%, 18%) ;
+    height: fit-content;
+    width: 300px;
+    padding: 2.5%;
+    border-radius: 5%;
+}
+
+.rating-card{
+    display: block;
+}
+
+.svg-star{
+    padding: 2.5%;
+    background-color:hsl(222, 7%, 27%) ;
+    border-radius: 50%;
+}
+
+p{
+    opacity: 50%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white;
+    border-color: hsl(25, 97%, 53%) !important;
+}
+
+.image{
+    padding: 0%;
+    border-radius: 0%;
+    background-color:hsl(213, 19%, 18%) !important;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+}
+
+.hidden{
+    color: red;
+    font-weight: 900;
+    display: none;
+    text-align: center;
+    opacity: 200%;
+}
+
+.lo{
+
+    font-family: "Overpass", sans-serif;
+    list-style: none;
+    padding: 6% 7%;
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50%;
+    background-color:hsl(216, 12%, 8%) ;
+    opacity: 70%;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.lo:hover{
+    background-color:hsl(217, 12%, 63%) ;
+}
+
+.submit{
+    margin: 8% 0px;
+    padding: 3%;
+    width: 100%;
+    margin-bottom: 3%;
+    background-color: hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.submit:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+    border-color: white;
+}
+
+.active{
+    color: white;
+    background-color: hsl(25, 97%, 53%) !important;
+}
+
+.thank-card{
+display: none;
+text-align: center;
+
+}
+.selected-text{
+    opacity: 100%;
+    padding: 4%;
+    border-radius: 30px;
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    width: 70%;
+    text-shadow: 1px 1px 9px hsl(25, 97%, 53%);
+    margin-left: 10%;
+}
+
+@media(max-width: 400px){
+.container{
+    width: 100%;
+    margin: 2%;
+}
+
+.image{
+    margin-top: 2%;
+}
+}
